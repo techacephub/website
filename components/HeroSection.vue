@@ -38,7 +38,7 @@ const changeSlider = () => {
           :id="`slide-${i}`"
           :key="i"
           :class="`${activeSlider === i ? 'opacity-100' : 'opacity-0'}`"
-          class="carousel-item relative block inset-0 relative -mr-[100%] w-full transform transition-all duration-700 ease-in-out ease-in h-56 lg:h-[90vh] bg-no-repeat lg:bg-center bg-cover lg:bg-cover pt-10 lg:pt-52 px-8 lg:px-32"
+          class="relative block inset-0 relative -mr-[100%] w-full transform transition-all duration-700 ease-in-out ease-in h-56 lg:h-[90vh] bg-no-repeat lg:bg-center bg-cover lg:bg-cover pt-10 lg:pt-52 px-8 lg:px-32 float-left backface-hidden"
           :style="`background-image: url(${item.image});`"
         >
           <div class="h-1 w-24 bg-primary"></div>
@@ -52,10 +52,3 @@ const changeSlider = () => {
     </div>
   </section>
 </template>
-
-<style>
-.carousel-item {
-  float: left;
-  backface-visibility: hidden;
-}
-</style>
