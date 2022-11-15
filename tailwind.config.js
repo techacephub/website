@@ -1,14 +1,25 @@
 /** @type {import('tailwindcss').Config} */
 const tailwindcss = require("tailwindcss");
+const plugin = require("tailwindcss/plugin");
 
-function withOpacityValue(variable) {
+const withOpacityValue = (variable) => {
   return ({ opacityValue }) => {
     if (opacityValue === undefined) {
       return `rgb(var(${variable}))`;
     }
     return `rgb(var(${variable}) / ${opacityValue})`;
   };
-}
+};
+const backfaceVisibility = plugin(function ({ addUtilities }) {
+  addUtilities({
+    ".backface-visible": {
+      "backface-visibility": "visible",
+    },
+    ".backface-hidden": {
+      "backface-visibility": "hidden",
+    },
+  });
+});
 
 module.exports = {
   content: [
@@ -37,5 +48,5 @@ module.exports = {
       },
     },
   },
-  plugins: [tailwindcss],
+  plugins: [tailwindcss, backfaceVisibility],
 };
