@@ -1,5 +1,15 @@
 /** @type {import('tailwindcss').Config} */
-const tailwindcss = require('tailwindcss');
+const tailwindcss = require("tailwindcss");
+
+function withOpacityValue(variable) {
+  return ({ opacityValue }) => {
+    if (opacityValue === undefined) {
+      return `rgb(var(${variable}))`;
+    }
+    return `rgb(var(${variable}) / ${opacityValue})`;
+  };
+}
+
 module.exports = {
   content: [
     "./components/**/*.{js,vue,ts}",
@@ -21,7 +31,11 @@ module.exports = {
   //   "./nuxt.config.{js,ts}",
   // ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: withOpacityValue("--color-primary"),
+      },
+    },
   },
   plugins: [tailwindcss],
-}
+};
