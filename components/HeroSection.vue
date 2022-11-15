@@ -1,0 +1,58 @@
+<script setup>
+import { ref } from "vue";
+import sliderImage1 from "~/assets/images/slider-1.png";
+
+const slideItems = ref([{
+    image: sliderImage1,
+    caption: "Building a Community of Techies",
+},
+{
+    image: sliderImage1,
+    caption: "Building a Community of Techies",
+}
+]);
+
+const activeSlider = ref(0);
+
+const changeSlider = () => {
+  let i = 0;
+  setInterval(() => {
+    if (i > slideItems.value.length - 1) {
+      i = 0;
+    }
+    activeSlider.value = i;
+    i++;
+  }, 1000);
+};
+
+changeSlider();
+</script>
+
+<template>
+  <section>
+    <div class="relative slide">
+      <div class="carousel-inner relative overflow-hidden w-full h-[90vh]">
+        <div
+          v-for="(item, i) in slideItems"
+          :id="`slide-${i}`"
+          :key="i"
+          :class="`${activeSlider === i ? 'opacity-100' : 'opacity-0'}`"
+          class="carousel-item  relative block inset-0 relative -mr-[100%] w-full transform transition-all duration-700 ease-in-out ease-in h-[90vh] bg-no-repeat bg-center bg-cover flex items-center  px-24"
+          :style="`background-image: url(${item.image});`"
+        >
+        <h1 class="text-5xl text-dark font-bold leading-tight w-64">
+          {{ item.caption }}
+        </h1>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<style>
+.carousel-item {
+  float: left;
+  backface-visibility: hidden;
+}
+
+</style>
