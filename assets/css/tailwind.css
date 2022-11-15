@@ -2,12 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-    font-family: "raleway";
-    src: url("../fonts/Raleway-Regular.ttf");
-}
 
-@font-face {
-    font-family: "ralewaybold";
-    src: url("../fonts/Raleway-ExtraBold.ttf");
+:root{
+    --color-primary: 79 180 0;
+    --color-secondary: 24 48 159;
 }

@@ -40,6 +40,7 @@ changeSlider();
           class="carousel-item  relative block inset-0 relative -mr-[100%] w-full transform transition-all duration-700 ease-in-out ease-in h-[90vh] bg-no-repeat bg-center bg-cover flex items-center  px-24"
           :style="`background-image: url(${item.image});`"
         >
+        <div class="h-10 w-24 bg-[#4FB400]">dd</div>
         <h1 class="text-5xl text-dark font-bold leading-tight w-64">
           {{ item.caption }}
         </h1>
