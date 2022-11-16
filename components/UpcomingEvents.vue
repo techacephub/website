@@ -27,6 +27,11 @@ const events = ref([
     date: "15/11/2022",
     url: "/events/fpi-tech-conference-2022",
   },
+  {
+    title: "Tech in Nigeria",
+    date: "13/11/2022",
+    url: "/events/fpi-tech-conference-2022",
+  },
 ]);
 const activeEvent = ref(0);
 const groupedEvents = ref([]); // for desktop view

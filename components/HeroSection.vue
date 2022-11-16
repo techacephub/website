@@ -27,7 +27,7 @@ const changeSliderOnInterval = () => {
     }
     activeSlider.value = i;
     i++;
-  }, 1000);
+  }, 5000);
 };
 
 changeSliderOnInterval();
@@ -46,7 +46,7 @@ changeSliderOnInterval();
       >
         <div class="h-1 w-24 bg-primary"></div>
         <h1
-          class="text-xl md:text-3xl lg:text-5xl 4xl:text-7xl text-dark font-bold w-32 md:w-48 lg:w-72 xl:w-1/4 4xl:w-1/3 mt-2 md:mt-8 lg:mt-16 4xl:mt-32"
+          class="text-xl md:text-3xl lg:text-5xl xl:text-6xl 2xl:text-7xl text-dark font-bold w-32 md:w-48 lg:w-72 xl:w-1/4 4xl:w-1/3 mt-2 md:mt-8 lg:mt-16 4xl:mt-32"
         >
           {{ item.caption }}
         </h1>
