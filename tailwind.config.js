@@ -45,6 +45,10 @@ module.exports = {
     extend: {
       colors: {
         primary: withOpacityValue("--color-primary"),
+        secondary: withOpacityValue("--color-secondary"),
+      },
+      screens: {
+        "4xl": "2560px",
       },
     },
   },
