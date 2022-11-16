@@ -5,17 +5,21 @@ import sliderImage1 from "~/assets/images/slider-1.png";
 const slideItems = ref([
   {
     image: sliderImage1,
-    caption: "Building a Community of Techies",
+    caption: "Building a Community of Techies 1",
   },
   {
     image: sliderImage1,
-    caption: "Building a Community of Techies",
+    caption: "Building a Community of Techies 2",
   },
 ]);
 
 const activeSlider = ref(0);
 
-const changeSlider = () => {
+/**
+ * @description - This function changes the active event every 5 seconds
+ * @returns {void}
+ */
+const changeSliderOnInterval = () => {
   let i = 0;
   setInterval(() => {
     if (i > slideItems.value.length - 1) {
@@ -26,29 +30,28 @@ const changeSlider = () => {
   }, 1000);
 };
 
-// changeSlider();
+changeSliderOnInterval();
 </script>
 
 <template>
-  <section>
-    <div class="relative slide">
-      <div class="carousel-inner relative overflow-hidden w-full h-[90vh]">
-        <div
-          v-for="(item, i) in slideItems"
-          :id="`slide-${i}`"
-          :key="i"
-          :class="`${activeSlider === i ? 'opacity-100' : 'opacity-0'}`"
-          class="relative block inset-0 relative -mr-[100%] w-full transform transition-all duration-700 ease-in-out ease-in h-56 lg:h-[90vh] bg-no-repeat lg:bg-center bg-cover lg:bg-cover pt-10 lg:pt-52 px-8 lg:px-32 float-left backface-hidden"
-          :style="`background-image: url(${item.image});`"
+  <section class="relative">
+    <div class="relative overflow-hidden w-full lg:h-[90vh] 4xl:h-[80vh]">
+      <div
+        v-for="(item, i) in slideItems"
+        :id="`slide-${i}`"
+        :key="i"
+        :class="`${activeSlider === i ? 'opacity-100' : 'opacity-0'}`"
+        class="relative block inset-0 -mr-[100%] w-full transform transition-all duration-700 ease-in-out ease-in h-56 md:h-[50vh] lg:h-[100vh] 4xl:h-[80vh] bg-no-repeat md:bg-top bg-cover pt-10 md:pt-16 lg:pt-32 xl:pt-52 4xl:pt-72 px-8 md:px-16 lg:px-24 xl:pt-32 4xl:px-56 float-left backface-hidden"
+        :style="`background-image: url(${item.image});`"
+      >
+        <div class="h-1 w-24 bg-primary"></div>
+        <h1
+          class="text-xl md:text-3xl lg:text-5xl 4xl:text-7xl text-dark font-bold w-32 md:w-48 lg:w-72 xl:w-1/4 4xl:w-1/3 mt-2 md:mt-8 lg:mt-16 4xl:mt-32"
         >
-          <div class="h-1 w-24 bg-primary"></div>
-          <h1
-            class="text-xl lg:text-5xl text-dark font-bold leading-tight w-32 lg:w-64 mt-2 lg:mt-16"
-          >
-            {{ item.caption }}
-          </h1>
-        </div>
+          {{ item.caption }}
+        </h1>
       </div>
     </div>
+    <UpcomingEvents />
   </section>
 </template>
