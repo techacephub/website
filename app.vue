@@ -1,6 +1,7 @@
 <template>
   <div>
-    <HelloWorld />
+    <OurEvent />
+    <OurTeam />
   </div>
 </template>
 
