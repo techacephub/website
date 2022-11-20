@@ -35,3 +35,9 @@ body {
     --blue-rgba:rgba(24, 48, 159, 0.8);
     --font-family-raleway: 'Raleway', sans-serif;
 }
+<<<<<<< HEAD
+=======
+body{
+    font-family: var(--font-family-raleway);
+}
+>>>>>>> d14be0c (updated)

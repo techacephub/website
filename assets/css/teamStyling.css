@@ -1,0 +1,190 @@
+.our_event_section {
+    @apply  bg-[#F4FDED]  py-[6rem];
+}
+.our_team_section{
+    @apply py-[4rem]  mb-32;
+}
+
+.our_event_container {
+    @apply container mx-auto items-center;
+}
+
+.our_event_heading_area {
+    @apply flex justify-between flex-wrap px-3;
+}
+
+.top_line {
+    @apply bg-[color:var(--secondary-color)] w-[100px] h-[5px] mb-4;
+}
+
+.our_event_heading_right {
+    @apply flex justify-between;
+}
+
+.our_event {
+    @apply text-black font-extrabold text-[40px] leading-[47px] tracking-[0.03rem];
+}
+
+.our_event_subtitle {
+    @apply text-[color:var(--secondary-color)] text-[16px] font-bold tracking-[0.03rem] leading-[19px];
+}
+
+.our_event_heading_right img {
+    @apply w-[57px] h-[40px] cursor-pointer;
+}
+
+.our_event_content_area , .our_team_content_area{
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-4 justify-center mt-2 items-center;
+}
+
+
+.single_event {
+    @apply relative flex justify-center h-[400px] md:h-[470px] lg:h-[400px] xl:h-[520px] w-[100%] cursor-pointer;
+ 
+}
+
+.single_event::after {
+    @apply absolute top-0 left-0 w-[100%] h-[100%] content-[''] bg-[color:var(--primary-color)] z-10;
+
+}
+
+.single_event:hover::after {
+    @apply bg-[color:var(--blue-rgba)] transition-all;
+
+}
+
+ .single_event img{
+    @apply relative w-[100%] h-[100%] ;
+}
+
+.single_event_desc {
+    @apply absolute z-20 
+    left-0 top-12 md:top-[55px] lg:top-20  xl:top-32 px-7 
+    text-white uppercase;
+}
+
+.single_event_date {
+    @apply font-extrabold 
+    text-[34px] xl:text-[40px]
+      lg:text-[30px] leading-[47px] 
+      tracking-[0.03rem] w-[143.94px];
+}
+
+.single_event_name {
+    @apply font-extrabold 
+    text-[20px] lg:text-[20px]
+     xl:text-[24px]
+     
+       overflow-hidden 
+       w-[300px] h-[60px]  
+       text-left 
+       leading-[28px] 
+       tracking-[0.03rem] 
+       mt-24 lg:mt-16  xl:mt-40;
+}
+.single_team{
+    @apply relative flex justify-center min-h-[400px] md:min-h-[470px] lg:min-h-[400px] xl:min-h-[520px] w-[100%] cursor-pointer bg-[color:var(--primary-color)] ;
+}
+/* .w-[401.26px] h-[401.26px]
+w-[401.26px] h-[401.26px] */
+.single_team_desc{
+    @apply w-[80%] absolute z-20 top-[82%] lg:top-[85%] xl:top-[85%] flex text-white justify-between align-middle
+}
+/* .our_team_content_area{
+    @apply h-[420px] w-[100%]
+} */
+
+.single_team .user{
+    @apply w-[80%] h-[300px] md:h-[370px] lg:h-[300px] xl:h-[420px]  align-middle mt-9
+}
+.single_team_name{
+    @apply font-extrabold text-[20px] leading-[23px] tracking-[0.03rem] text-left
+}
+.single_team_work_place{
+    @apply font-medium text-[16px] leading-[19px] tracking-[0.03rem] text-left
+}
+.carousel__item {
+    /* min-height: 200px; */
+    width: 100%;
+    justify-content: space-between !important;
+    gap: 10px !important;
+    column-gap: 10px !important;
+  }
+  
+  .carousel__slide {
+    padding-left: 10px;
+    padding-top: 10px;
+    /* column-gap: 10px;
+    gap: 10px; */
+    
+  }
+
+.flip-container {
+    -webkit-perspective: 1000;
+    background: transparent;
+    /* margin: 100px auto; */
+}
+
+.flip-container:hover .flipper,
+.flip-container.hover .flipper {
+    -webkit-transform: rotateY(180deg);
+}
+
+.flip-container
+ {
+    width: 80%;
+    height: 70%;
+    margin: 0 auto;
+    margin-top: 10%;
+
+}
+.front,
+.back ,
+.front img,
+.back img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.flipper {
+    -webkit-transition: 1.5s;
+    -webkit-transform-style: preserve-3d;
+    position: relative;
+}
+
+.front,
+.back {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.front {
+    z-index: 2;
+}
+.back {
+    -webkit-transform: rotateY(180deg);
+    background: var(--primary-color);
+
+}
+
+@media screen and (min-width:400px) and (max-width:500px) {
+    .single_team{
+        height: 450px ;
+    }
+}
+@media screen and (min-width:500px) and (max-width:600px) {
+    .single_team{
+        height: 500px ;
+    }
+    .single_team_desc{
+        margin-top: 6%;
+    }
+}
+@media screen and (max-width:414px){
+.our_event_subtitle{
+    
+}
+}
