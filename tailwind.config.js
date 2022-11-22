@@ -47,10 +47,16 @@ module.exports = {
         primary: withOpacityValue("--color-primary"),
         secondary: withOpacityValue("--color-secondary"),
       },
+      fontFamily: {
+        'raleway': ['Raleway Regular', 'sans-serif'],
+        'raleway-bold': ['Raleway Bold', 'sans-serif'],
+      },
       screens: {
         "4xl": "2560px",
       },
     },
   },
-  plugins: [tailwindcss, backfaceVisibility],
+  plugins: [tailwindcss, backfaceVisibility, 
+    require('@tailwindcss/forms')
+  ],
 };
