@@ -3,14 +3,12 @@
         <WhatWeHaveDone />
     </div>
   <div>
-    <!-- This section to mimic navbar  -->
-    <div class="h-16 w-full bg-red-500"></div>
-    <HeroSection />
     <Header />
+    <HeroSection />
     <AboutUs />
-    <Footer />
     <OurEvent />
     <OurTeam />
+    <Footer />
   </div>
 </template>
 
