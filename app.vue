@@ -6,6 +6,8 @@
     <Header />
     <AboutUs />
     <Footer />
+    <OurEvent />
+    <OurTeam />
   </div>
 </template>
 
