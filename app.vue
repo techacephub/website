@@ -1,4 +1,7 @@
 <template>
+    <div>
+        <WhatWeHaveDone />
+    </div>
   <div>
     <Header />
     <HeroSection />
