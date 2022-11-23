@@ -1,13 +1,11 @@
 <template>
-    <div>
-        <WhatWeHaveDone />
-    </div>
   <div>
     <Header />
     <HeroSection />
     <AboutUs />
     <OurEvent />
     <OurTeam />
+    <WhatWeHaveDone />
     <Footer />
   </div>
 </template>
