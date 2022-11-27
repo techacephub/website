@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto mb-[50px] px-5 md:px-20">
+    <div class="container mx-auto mb-[100px] mt-[100px]">
         <hr class="w-[6%] border border-[#4FB400] border-2 mb-[20px]">
         <div class="flex mb-[30px]">
             <div class="w-[40%]">

@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto py-[20px] px-5 md:px-20">
+    <div class="container mx-auto py-[20px]">
         <div class="flex justify-between items-center">
             <div class="w-[20%]">
                 <img src="../assets/images/logo.png" alt="" />
@@ -24,7 +24,7 @@
                 </ul>
             </div>
             <div class="w-[20%]">
-                <ul class="flex">
+                <ul class="flex justify-end">
                     <li  class="px-[10px] mx-[10px]">
                         <NuxtLink to="" class="capitalize font-semibold">Login</NuxtLink>
                     </li>

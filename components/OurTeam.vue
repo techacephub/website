@@ -4,12 +4,12 @@
             <div class="our_event_heading_area">
                 <div class="our_event_heading_left">
                     <div class="top_line"></div>
-                    <h2 class="our_event">Our Team</h2>
+                    <h1 class="our_event">Our Team</h1>
                     <h4 class="our_event_subtitle">OUR FORMIDABLE TEAM</h4>
                 </div>
                 <div class="our_event_heading_right ">
-                    <img src="@/assets/images/icons/left-arrow.png" alt="left-arrow" @click="prev" />
-                    <img src="@/assets/images/icons/right-arrow.png" alt="right-arrow" class="" @click="next" />
+                    <img src="~/assets/images/icons/left-arrow.png" alt="left-arrow" @click="prev" />
+                    <img src="~/assets/images/icons/right-arrow.png" alt="right-arrow" class="" @click="next" />
                 </div>
             </div>
             <div class="our_team_content_are">
@@ -39,11 +39,8 @@
                             </div>
                         </div>
                     </slide>
-
                 </Carousel>
-
             </div>
-
         </div>
     </section>
 </template>
