@@ -1,13 +1,13 @@
 <template>
-    <section class="our_event_section mb-[50px] md:mb-[100px] mt-[50px] md:mt-[100px] px-5">
+    <section class="our_event_section mt-[50px] md:mt-[100px] px-5 py-[60px] md:py-[100px]">
         <div class=" our_event_container container mx-auto">
             <div class="our_event_heading_area">
-                <div class="our_event_heading_left">
+                <div class="our_event_heading_left mb-[20px]">
                     <div class="top_line"></div>
                     <h2 class="our_event text-[32px] md:text-[40px]">Our Events</h2>
                     <h4 class="our_event_subtitle">STAY UP TO DATE WITH ALL OUR EVENTS</h4>
                 </div>
-                <div class="our_event_heading_right ">
+                <div class="our_event_heading_right hidden md:flex">
                     <img src="@/assets/images/icons/left-arrow.png" alt="left-arrow" @click="prev()" />
                     <img src="@/assets/images/icons/right-arrow.png" alt="right-arrow"  @click="next()" />
                 </div>

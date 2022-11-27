@@ -1,9 +1,6 @@
 .our_event_section {
     @apply  bg-[#F4FDED];
 }
-.our_team_section{
-    @apply py-[4rem]  mb-32;
-}
 
 .our_event_container {
     @apply container mx-auto items-center;
@@ -17,12 +14,8 @@
     @apply bg-[color:var(--secondary-color)] w-[100px] h-[5px] mb-4;
 }
 
-.our_event_heading_right {
-    @apply flex justify-between;
-}
-
 .our_event {
-    @apply text-black font-extrabold text-[40px] leading-[47px] tracking-[0.03rem];
+    @apply text-black font-extrabold leading-[47px] tracking-[0.03rem];
 }
 
 .our_event_subtitle {

@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto px-5 py-[100px] font-raleway bg-[#18309f]">
+  <div class="mx-auto px-5 py-[60px] md:py-[100px] font-raleway bg-[#18309f]">
     <div class="container mx-auto">
       <hr class="border-2 w-20 mb-4 border-[#4fb400]" />
       <h1 class="text-white font-bold text-[32px] md:text-[40px]">What we have done</h1>
