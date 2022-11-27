@@ -1,10 +1,10 @@
 <template>
-    <section class="our_event_section">
+    <section class="our_event_section mb-[50px] md:mb-[100px] mt-[50px] md:mt-[100px] px-5">
         <div class=" our_event_container container mx-auto">
             <div class="our_event_heading_area">
                 <div class="our_event_heading_left">
                     <div class="top_line"></div>
-                    <h2 class="our_event">Our Events</h2>
+                    <h2 class="our_event text-[32px] md:text-[40px]">Our Events</h2>
                     <h4 class="our_event_subtitle">STAY UP TO DATE WITH ALL OUR EVENTS</h4>
                 </div>
                 <div class="our_event_heading_right ">
@@ -13,7 +13,7 @@
                 </div>
             </div>
             <div class="our_event_content_are">
-                <Carousel ref="carousel"  :settings="settings" :breakpoints="breakpoints">
+                <Carousel ref="carousel"  :settings="settings" :breakpoints="breakpoints" :autoplay="2000">
                     <slide v-for="event in allEvents" :key="event">
                         <div class="single_event">
                             <img :src="`/_nuxt/assets/images/team/${event.eventImage}`" :alt='event'>
@@ -22,7 +22,6 @@
                                 <h2 class="single_event_name text-left">{{event.event_name}}
                                 </h2>
                             </div>
-
                         </div>
                     </slide>
                 </Carousel>

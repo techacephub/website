@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto py-[20px]">
+    <div class="container mx-auto py-[20px] px-10 hidden">
         <div class="flex justify-between items-center">
             <div class="w-[20%]">
                 <img src="../assets/images/logo.png" alt="" />

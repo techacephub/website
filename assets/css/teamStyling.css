@@ -1,5 +1,5 @@
 .our_event_section {
-    @apply  bg-[#F4FDED]  py-[6rem];
+    @apply  bg-[#F4FDED];
 }
 .our_team_section{
     @apply py-[4rem]  mb-32;

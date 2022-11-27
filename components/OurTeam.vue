@@ -1,5 +1,5 @@
 <template>
-    <section class="our_team_section">
+    <section class="our_team_section px-5">
         <div class=" our_event_container container mx-auto">
             <div class="our_event_heading_area">
                 <div class="our_event_heading_left">

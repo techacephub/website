@@ -1,8 +1,8 @@
 <template>
-  <div class="mx-auto px-10 py-[100px] font-raleway bg-[#18309f]">
+  <div class="mx-auto px-5 py-[100px] font-raleway bg-[#18309f]">
     <div class="container mx-auto">
       <hr class="border-2 w-20 mb-4 border-[#4fb400]" />
-      <h1 class="text-white font-bold text-[40px]">What we have done</h1>
+      <h1 class="text-white font-bold text-[32px] md:text-[40px]">What we have done</h1>
       <p class="text-white text-md">Highlight of what we have done</p>
       <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 xl:grid-cols-4 mt-10 gap-6">
         <div
