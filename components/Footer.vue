@@ -1,7 +1,7 @@
 <template>
     <div class="bg-[#18309F] px-10">
-        <div class="container mx-auto pt-[50px] py-[20px] flex">
-            <div class="w-[25%]">
+        <div class="container mx-auto pt-[50px] py-[20px] flex flex-col md:flex-row">
+            <div class="w-full md:w-[25%]">
                 <h4 class="text-white mb-[20px] font-semibold text-[20px]">Quick Links</h4>
                 <ul class="text-white text-[14px]">
                     <li class="mb-[5px]">
@@ -16,7 +16,7 @@
                 </ul>
             </div>
             
-            <div class="w-[25%]">
+            <div class="w-full md:w-[25%]">
                 <h4 class="text-white mb-[20px] font-semibold text-[20px]">Follow Us</h4>
                 <ul class="text-white text-[14px]">
                     <li class="mb-[5px]">
@@ -34,7 +34,7 @@
                 </ul>
             </div>
             
-            <div class="w-[50%]">
+            <div class="w-full md:w-[50%] mt-[20px] md:mt-[0]">
                 <label class="text-white text-[14px]" for="">Join our newsletters to stay up to date</label>
                 <div class="flex gap-4">
                     <input
