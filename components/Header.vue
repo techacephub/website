@@ -85,10 +85,7 @@
       <div class="flex justify-between items-center">
         <span class="cursor-pointer">
           <router-link to="/">
-            <img
-              src="../assets/images/logo.png"
-              alt="programmers logo"
-            />
+            <img src="../assets/images/logo.png" alt="programmers logo" />
           </router-link>
         </span>
 
@@ -126,37 +123,51 @@
       <!-- mobile nav -->
       <ul class="flex flex-col items-center bg-white py-4 w-full" v-if="menu">
         <li class="py-[10px]">
-          <NuxtLink to="" class="capitalize font-semibold hover:cursor-pointer text-xl"
+          <NuxtLink
+            to=""
+            class="capitalize font-semibold hover:cursor-pointer text-xl"
             >Home</NuxtLink
           >
         </li>
         <li class="py-[10px]">
-          <NuxtLink to="" class="capitalize font-semibold hover:cursor-pointer text-xl"
+          <NuxtLink
+            to=""
+            class="capitalize font-semibold hover:cursor-pointer text-xl"
             >Who we are</NuxtLink
           >
         </li>
         <li class="py-[10px]">
-          <NuxtLink to="" class="capitalize font-semibold hover:cursor-pointer text-xl"
+          <NuxtLink
+            to=""
+            class="capitalize font-semibold hover:cursor-pointer text-xl"
             >Our activities</NuxtLink
           >
         </li>
         <li class="py-[10px]">
-          <NuxtLink to="" class="capitalize font-semibold hover:cursor-pointer text-xl"
+          <NuxtLink
+            to=""
+            class="capitalize font-semibold hover:cursor-pointer text-xl"
             >team</NuxtLink
           >
         </li>
         <li class="py-[10px]">
-          <NuxtLink to="" class="capitalize font-semibold hover:cursor-pointer text-xl"
+          <NuxtLink
+            to=""
+            class="capitalize font-semibold hover:cursor-pointer text-xl"
             >contacts</NuxtLink
           >
         </li>
         <li class="py-[10px]">
-          <NuxtLink to="" class="capitalize font-semibold hover:cursor-pointer text-xl"
+          <NuxtLink
+            to=""
+            class="capitalize font-semibold hover:cursor-pointer text-xl"
             >Login</NuxtLink
           >
         </li>
         <li class="py-[10px]">
-          <NuxtLink to="" class="capitalize font-semibold hover:cursor-pointer text-xl bg-[#4FB400] text-white py-[10px] px-[20px] rounded-md"
+          <NuxtLink
+            to=""
+            class="capitalize font-semibold hover:cursor-pointer text-xl bg-[#4FB400] text-white py-[10px] px-[20px] rounded-md"
             >Join Us</NuxtLink
           >
         </li>
@@ -165,12 +176,29 @@
   </div>
 </template>
 
-<script setup lang="ts">
-import { ref } from "vue";
-
-const menu = ref(false);
-
-const openMenu = () => {
-  menu.value = !menu.value;
-};
+<script>
+export default {
+    data() {
+      return {
+        menu: false
+      }
+    },
+    head() {
+      return {
+        title: 'Welcome to Programmers Hub',
+        meta: [
+          {
+            hid: 'description',
+            name: 'description',
+            content: 'My custom description'
+          }
+        ]
+      }
+    },
+    methods: {
+        openMenu() {
+            this.menu = !this.menu;
+        }
+    }
+  }
 </script>
