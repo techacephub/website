@@ -13,17 +13,16 @@
                 </div>
             </div>
             <div class="our_team_content_are">
-                <Carousel ref="carousel" :settings="settings" :breakpoints="breakpoints">
+                <Carousel ref="carousel" :settings="settings" :breakpoints="breakpoints" :autoplay="3000" :wrap-around="true">
                     <slide v-for="team in allTeam" :key="team">
                         <div class="single_team">
                             <div class="flip-container">
                                 <div class="flipper">
                                     <div clas="front">
-                                    <img :src="`/_nuxt/assets/images/team/${team.teamImage}`" :alt='team.fullname'>
-
+                                        <img :src="team.teamImage" :alt='team.fullname'>
                                     </div>
                                     <div class="back">
-                                        <img :src="`/_nuxt/assets/images/team/${team.teamImage}`" :alt='team.fullname'>
+                                        <img :src="team.teamImage" :alt='team.fullname'>
                                     </div>
 
                                 </div>
@@ -69,43 +68,43 @@ export default defineComponent({
                 'fullname': 'Amode Habeeb',
                 'workplace': 'Markify',
                 'linkedInUrl': 'https://www.linkedin.com/in/habeeb/',
-                'teamImage': 'user1.png'
+                'teamImage': 'https://res.cloudinary.com/haayzeed/image/upload/v1669585925/programmers-hub-team/team/amode-habeeb.png'
             },
             {
                 'fullname': 'Soneye Abimbola',
                 'workplace': 'Markify',
                 'linkedInUrl': 'https://www.linkedin.com/in/soneye/',
-                'teamImage': 'user2.png'
+                'teamImage': 'https://res.cloudinary.com/haayzeed/image/upload/v1669585925/programmers-hub-team/team/shina-soneye.png'
             },
             {
                 'fullname': 'Dosunmu Afeez',
                 'workplace': 'Kredi Bank',
                 'linkedInUrl': 'https://www.linkedin.com/in/afeez/',
-                'teamImage': 'user3.png'
+                'teamImage': 'https://res.cloudinary.com/haayzeed/image/upload/v1669585925/programmers-hub-team/team/dosunmu-afeez.png'
             },
             {
                 'fullname': 'Omolewa Stephen',
                 'workplace': 'HubRoot',
                 'linkedInUrl': 'https://www.linkedin.com/in/stephen/',
-                'teamImage': 'user1.png'
+                'teamImage': 'https://res.cloudinary.com/haayzeed/image/upload/v1669585925/programmers-hub-team/team/amode-habeeb.png'
             },
             {
                 'fullname': 'Obadimu Ismail',
                 'workplace': 'International',
                 'linkedInUrl': 'https://www.linkedin.com/in/ismail/',
-                'teamImage': 'ismail.jpg'
+                'teamImage': 'https://res.cloudinary.com/haayzeed/image/upload/v1669585924/programmers-hub-team/team/obadimu-ismail.jpg'
             },
             {
                 'fullname': 'Omolewa Stephen',
-                'workplace': 'Markify',
+                'workplace': 'HubRoot',
                 'linkedInUrl': 'https://www.linkedin.com/in/stephen/',
-                'teamImage': 'user1.png'
+                'teamImage': 'https://res.cloudinary.com/haayzeed/image/upload/v1669585925/programmers-hub-team/team/amode-habeeb.png'
             },
             {
                 'fullname': 'Obadimu Ismail',
                 'workplace': 'Markify',
                 'linkedInUrl': 'https://www.linkedin.com/in/habeeb/',
-                'teamImage': 'user2.png'
+                'teamImage': 'https://res.cloudinary.com/haayzeed/image/upload/v1669585924/programmers-hub-team/team/obadimu-ismail.jpg'
             },
         ],
         breakpoints: {
@@ -132,8 +131,11 @@ export default defineComponent({
         },
         prev() {
             this.$refs.carousel.prev()
-            
         },
+        // getImgUrl(team) {
+        //     var images = require('@/assets/', false, /\.png$/)
+        //     return images('@/assets/images/team' + team.teamImage + ".png")
+        // }
     },
 })
 </script>

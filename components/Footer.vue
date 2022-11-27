@@ -4,13 +4,13 @@
             <div class="w-full md:w-[25%]">
                 <h4 class="text-white mb-[20px] font-semibold text-[20px]">Quick Links</h4>
                 <ul class="text-white text-[14px]">
-                    <li class="mb-[5px]">
+                    <li class="mb-[15px]">
                         <a href="">Who we are</a>
                     </li>
-                    <li class="mb-[5px]">
+                    <li class="mb-[15px]">
                         <a href="">Events</a>
                     </li>
-                    <li class="mb-[5px]">
+                    <li class="mb-[15px]">
                         <a href="">Team</a>
                     </li>
                 </ul>
@@ -19,16 +19,16 @@
             <div class="w-full md:w-[25%]">
                 <h4 class="text-white mb-[20px] font-semibold text-[20px]">Follow Us</h4>
                 <ul class="text-white text-[14px]">
-                    <li class="mb-[5px]">
+                    <li class="mb-[15px]">
                         <a href="">Facebook</a>
                     </li>
-                    <li class="mb-[5px]">
+                    <li class="mb-[15px]">
                         <a href="">Instagram</a>
                     </li>
-                    <li class="mb-[5px]">
+                    <li class="mb-[15px]">
                         <a href="">Twitter</a>
                     </li>
-                    <li class="mb-[5px]">
+                    <li class="mb-[15px]">
                         <a href="">Linkedin</a>
                     </li>
                 </ul>

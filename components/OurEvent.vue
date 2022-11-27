@@ -13,7 +13,7 @@
                 </div>
             </div>
             <div class="our_event_content_are">
-                <Carousel ref="carousel"  :settings="settings" :breakpoints="breakpoints" :autoplay="2000">
+                <Carousel ref="carousel"  :settings="settings" :breakpoints="breakpoints" :autoplay="2000" :wrap-around="true">
                     <slide v-for="event in allEvents" :key="event">
                         <div class="single_event">
                             <img :src="`/_nuxt/assets/images/team/${event.eventImage}`" :alt='event'>
