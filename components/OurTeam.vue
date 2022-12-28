@@ -17,15 +17,7 @@
                     <slide v-for="team in allTeam" :key="team">
                         <div class="single_team">
                             <div class="flip-container">
-                                <div class="flipper">
-                                    <div clas="front">
-                                        <img :src="team.teamImage" :alt='team.fullname'>
-                                    </div>
-                                    <div class="back">
-                                        <img :src="team.teamImage" :alt='team.fullname'>
-                                    </div>
-
-                                </div>
+                                <img :src="team.teamImage" :alt='team.fullname'>
                             </div>
                             <div class="single_team_desc">
                                 <div>
@@ -65,47 +57,66 @@ export default defineComponent({
         },
         allTeam: [
             {
-                'fullname': 'Amode Habeeb',
-                'workplace': 'Markify',
-                'linkedInUrl': 'https://www.linkedin.com/in/habeeb/',
-                'teamImage': 'https://res.cloudinary.com/haayzeed/image/upload/v1669585925/programmers-hub-team/team/amode-habeeb.png'
+                'fullname': 'Soneye Oluwasina',
+                'workplace': 'Geneo Softwares',
+                'linkedInUrl': 'https://www.linkedin.com/in/soneye-abimbola-sina/',
+                'teamImage': 'https://res.cloudinary.com/haayzeed/image/upload/v1669585925/programmers-hub-team/team/shina.png'
             },
             {
-                'fullname': 'Soneye Abimbola',
-                'workplace': 'Markify',
-                'linkedInUrl': 'https://www.linkedin.com/in/soneye/',
-                'teamImage': 'https://res.cloudinary.com/haayzeed/image/upload/v1669585925/programmers-hub-team/team/shina-soneye.png'
+                'fullname': 'Olayinka Idowu',
+                'workplace': 'Kredi Bank',
+                'linkedInUrl': 'https://www.linkedin.com/in/olayinka-idowu-7a92b3166/',
+                'teamImage': 'https://res.cloudinary.com/haayzeed/image/upload/v1669585924/programmers-hub-team/team/olayinka.jpg'
             },
             {
                 'fullname': 'Dosunmu Afeez',
+                'workplace': 'Vzy Inc',
+                'linkedInUrl': 'https://www.linkedin.com/in/afeez-dosunmu/',
+                'teamImage': 'https://res.cloudinary.com/haayzeed/image/upload/v1669585925/programmers-hub-team/team/dosunmu.png'
+            },
+            {
+                'fullname': 'Omolewa Stephen',
+                'workplace': 'Hexagon Seafoods Limited',
+                'linkedInUrl': 'https://www.linkedin.com/in/omolewa-stephen-ayobami/',
+                'teamImage': 'https://res.cloudinary.com/haayzeed/image/upload/v1669585925/programmers-hub-team/team/omolewa.png'
+            },
+            {
+                'fullname': 'Obadimu Ismail',
+                'workplace': 'Concept-Nova',
+                'linkedInUrl': 'https://www.linkedin.com/in/ismailobadimu/',
+                'teamImage': 'https://res.cloudinary.com/haayzeed/image/upload/v1669585924/programmers-hub-team/team/ismail.jpg'
+            },
+            {
+                'fullname': 'Soneye Abimbola',
+                'workplace': 'Freelancer',
+                'linkedInUrl': 'https://www.linkedin.com/in/soneyeabimbola/',
+                'teamImage': 'https://res.cloudinary.com/haayzeed/image/upload/v1669585925/programmers-hub-team/team/lawal.png'
+            },
+            {
+                'fullname': 'Mustapha Tijani',
+                'workplace': 'FBIS Tech',
+                'linkedInUrl': 'https://www.linkedin.com/in/tijanidevit/',
+                'teamImage': 'https://res.cloudinary.com/haayzeed/image/upload/v1669585924/programmers-hub-team/team/tijani.jpg'
+            },
+            {
+                'fullname': 'Adeyemi Racheal',
                 'workplace': 'Kredi Bank',
-                'linkedInUrl': 'https://www.linkedin.com/in/afeez/',
-                'teamImage': 'https://res.cloudinary.com/haayzeed/image/upload/v1669585925/programmers-hub-team/team/dosunmu-afeez.png'
+                'linkedInUrl': 'https://www.linkedin.com/in/cyberbizkit/',
+                'teamImage': 'https://res.cloudinary.com/haayzeed/image/upload/v1669585924/programmers-hub-team/team/racheal.jpg'
             },
             {
-                'fullname': 'Omolewa Stephen',
-                'workplace': 'HubRoot',
-                'linkedInUrl': 'https://www.linkedin.com/in/stephen/',
-                'teamImage': 'https://res.cloudinary.com/haayzeed/image/upload/v1669585925/programmers-hub-team/team/amode-habeeb.png'
+                'fullname': 'Awodugba Temidayo',
+                'workplace': 'Prunny Technologies',
+                'linkedInUrl': 'https://www.linkedin.com/in/awodugba-temidayo-alvin-918495151/',
+                'teamImage': 'https://res.cloudinary.com/haayzeed/image/upload/v1669585924/programmers-hub-team/team/alvin.jpg'
             },
             {
-                'fullname': 'Obadimu Ismail',
-                'workplace': 'International',
-                'linkedInUrl': 'https://www.linkedin.com/in/ismail/',
-                'teamImage': 'https://res.cloudinary.com/haayzeed/image/upload/v1669585924/programmers-hub-team/team/obadimu-ismail.jpg'
-            },
-            {
-                'fullname': 'Omolewa Stephen',
-                'workplace': 'HubRoot',
-                'linkedInUrl': 'https://www.linkedin.com/in/stephen/',
-                'teamImage': 'https://res.cloudinary.com/haayzeed/image/upload/v1669585925/programmers-hub-team/team/amode-habeeb.png'
-            },
-            {
-                'fullname': 'Obadimu Ismail',
+                'fullname': 'Amode Habeeb',
                 'workplace': 'Markify',
-                'linkedInUrl': 'https://www.linkedin.com/in/habeeb/',
-                'teamImage': 'https://res.cloudinary.com/haayzeed/image/upload/v1669585924/programmers-hub-team/team/obadimu-ismail.jpg'
+                'linkedInUrl': 'https://www.linkedin.com/in/habeeb-amode-3a410318a/',
+                'teamImage': 'https://res.cloudinary.com/haayzeed/image/upload/v1669585925/programmers-hub-team/team/habeeb.png'
             },
+            
         ],
         breakpoints: {
             // 700px and up

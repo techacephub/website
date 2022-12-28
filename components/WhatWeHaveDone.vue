@@ -6,7 +6,7 @@
       <p class="text-white text-md">Highlight of what we have done</p>
       <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 xl:grid-cols-4 mt-10 gap-6">
         <div
-          class="bg-white flex justify-center transition ease-in-out hover:-translate-x-1 hover:scale-20 duration-300 box_1 h-64"
+          class="bg-white flex justify-center transition ease-in-out  hover:scale-20 duration-300 box_1 h-64"
         >
           <img
             src="../assets/images/project.jpg"
@@ -15,7 +15,7 @@
           />
         </div>
         <div
-          class="bg-white flex justify-center transition ease-in-out hover:-translate-x-1 hover:scale-20 duration-300 h-64 box_2"
+          class="bg-white flex justify-center transition ease-in-out  hover:scale-20 duration-300 h-64 box_2"
         >
           <img
             src="../assets/images/project2.jpg"
@@ -24,7 +24,7 @@
           />
         </div>
         <div
-          class="bg-white flex justify-center transition ease-in-out hover:-translate-x-1 hover:scale-20 duration-300 h-64 box_3"
+          class="bg-white flex justify-center transition ease-in-out  hover:scale-20 duration-300 h-64 box_3"
         >
           <img
             src="../assets/images/project.jpg"
@@ -33,7 +33,7 @@
           />
         </div>
         <div
-          class="bg-white flex justify-center transition ease-in-out hover:-translate-x-1 hover:scale-20 duration-300 h-64 box_4"
+          class="bg-white flex justify-center transition ease-in-out  hover:scale-20 duration-300 h-64 box_4"
         >
           <img
             src="../assets/images/project2.jpg"
@@ -42,7 +42,7 @@
           />
         </div>
         <div
-          class="bg-white flex justify-center transition ease-in-out hover:-translate-x-1 hover:scale-20 duration-300 h-64 box_5"
+          class="bg-white flex justify-center transition ease-in-out  hover:scale-20 duration-300 h-64 box_5"
         >
           <img
             src="../assets/images/project.jpg"
@@ -51,7 +51,7 @@
           />
         </div>
         <div
-          class="bg-white flex justify-center transition ease-in-out hover:-translate-x-1 hover:scale-20 duration-300 h-64 box_6"
+          class="bg-white flex justify-center transition ease-in-out  hover:scale-20 duration-300 h-64 box_6"
         >
           <img
             src="../assets/images/project2.jpg"
