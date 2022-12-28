@@ -1,5 +1,5 @@
 <template>
-    <section class="our_event_section mt-[50px] md:mt-[100px] px-5 py-[60px] md:py-[100px]">
+    <section class="our_event_section mt-[50px] md:mt-[100px] px-5 py-[60px] md:py-[100px]" id="our-events">
         <div class=" our_event_container container mx-auto">
             <div class="our_event_heading_area">
                 <div class="our_event_heading_left mb-[20px]">

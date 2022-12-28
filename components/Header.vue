@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto py-[20px] px-5">
+  <div class="container mx-auto py-[20px] px-5" id="home">
     <div class="flex justify-between items-center">
       <div class="w-[20%]">
         <img src="../assets/images/logo.png" alt="programmers hub logo" />
@@ -7,38 +7,38 @@
       <div class="w-[60%] hidden justify-center xl:flex">
         <ul class="flex">
           <li class="px-[10px] mx-[10px]">
-            <NuxtLink
-              to=""
+            <a
+              href="#home"
               class="capitalize font-semibold hover:cursor-pointer"
-              >Home</NuxtLink
+              >Home</a
             >
           </li>
           <li class="px-[10px] mx-[10px]">
-            <NuxtLink
-              to=""
+            <a
+              href="#who-we-are"
               class="capitalize font-semibold hover:cursor-pointer"
-              >Who we are</NuxtLink
+              >Who we are</a
             >
           </li>
           <li class="px-[10px] mx-[10px]">
-            <NuxtLink
-              to=""
+            <a
+              href="#our-events"
               class="capitalize font-semibold hover:cursor-pointer"
-              >Our activities</NuxtLink
+              >Our activities</a
             >
           </li>
           <li class="px-[10px] mx-[10px]">
-            <NuxtLink
-              to=""
+            <a
+              href="#our-team"
               class="capitalize font-semibold hover:cursor-pointer"
-              >team</NuxtLink
+              >team</a
             >
           </li>
           <li class="px-[10px] mx-[10px]">
-            <NuxtLink
-              to=""
+            <a
+              href="#contact"
               class="capitalize font-semibold hover:cursor-pointer"
-              >contacts</NuxtLink
+              >contacts</a
             >
           </li>
         </ul>
@@ -49,10 +49,10 @@
             <NuxtLink to="" class="capitalize font-semibold">Login</NuxtLink>
           </li>
           <li class="px-[10px] ml-[10px]">
-            <NuxtLink
-              to=""
+            <a  
+              href="#contact"
               class="capitalize bg-[#4FB400] font-semibold text-white py-[10px] px-[20px] rounded-md text-[14px]"
-              >join us</NuxtLink
+              >join us</a
             >
           </li>
         </ul>
@@ -123,52 +123,52 @@
       <!-- mobile nav -->
       <ul class="flex flex-col items-center bg-white py-4 w-full" v-if="menu">
         <li class="py-[10px]">
-          <NuxtLink
-            to=""
+          <a
+            href="#home"
             class="capitalize font-semibold hover:cursor-pointer text-xl"
-            >Home</NuxtLink
+            >Home</a
           >
         </li>
         <li class="py-[10px]">
-          <NuxtLink
-            to=""
+          <a
+            href="#who-we-are"
             class="capitalize font-semibold hover:cursor-pointer text-xl"
-            >Who we are</NuxtLink
+            >Who we are</a
           >
         </li>
         <li class="py-[10px]">
-          <NuxtLink
-            to=""
+          <a
+            href="#our-events"
             class="capitalize font-semibold hover:cursor-pointer text-xl"
-            >Our activities</NuxtLink
+            >Our activities</a
           >
         </li>
         <li class="py-[10px]">
-          <NuxtLink
-            to=""
+          <a
+            href="#our-team"
             class="capitalize font-semibold hover:cursor-pointer text-xl"
-            >team</NuxtLink
+            >team</a
           >
         </li>
         <li class="py-[10px]">
-          <NuxtLink
-            to=""
+          <a
+            href="#contact"
             class="capitalize font-semibold hover:cursor-pointer text-xl"
-            >contacts</NuxtLink
+            >contacts</a
           >
         </li>
         <li class="py-[10px]">
-          <NuxtLink
-            to=""
+          <a
+            href=""
             class="capitalize font-semibold hover:cursor-pointer text-xl"
-            >Login</NuxtLink
+            >Login</a
           >
         </li>
         <li class="py-[10px]">
-          <NuxtLink
-            to=""
+          <a
+            href="#contact"
             class="capitalize font-semibold hover:cursor-pointer text-xl bg-[#4FB400] text-white py-[10px] px-[20px] rounded-md"
-            >Join Us</NuxtLink
+            >Join Us</a
           >
         </li>
       </ul>

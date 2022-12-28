@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto mb-[50px] md:mb-[100px] mt-[50px] md:mt-[100px] px-5" >
+    <div class="container mx-auto mb-[50px] md:mb-[100px] mt-[50px] md:mt-[100px] px-5" id="who-we-are">
         <hr class="w-[20%] md:w-[6%] border border-[#4FB400] border-2 mb-[20px]">
         <div class="flex mb-[30px] flex-col md:flex-row">
             <div class="w-full md:w-[40%]">
