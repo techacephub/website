@@ -17,11 +17,11 @@
                 <p class="text-white font-semibold text-[14px]">Training Student on Software Development</p>
             </div>
             <div class="w-full md:w-[45%]">
-                <div class="about-us-one h-[215px] w-full mb-[20px] flex flex-col justify-end p-[30px]">
+                <div class="about-us-two h-[215px] w-full mb-[20px] flex flex-col justify-end p-[30px]">
                     <h1 class="text-white font-semibold text-[20px]">Training Center</h1>
                     <p class="text-white font-semibold text-[14px]">Training Student on Software Development</p>
                 </div>
-                <div class="about-us-one h-[215px] w-full flex flex-col justify-end p-[30px]">
+                <div class="about-us-three h-[215px] w-full flex flex-col justify-end p-[30px]">
                     <h1 class="text-white font-semibold text-[20px]">Training Center</h1>
                     <p class="text-white font-semibold text-[14px]">Training Student on Software Development</p>
                 </div>
@@ -50,6 +50,20 @@
 <style>
 .about-us-one {
     background-image: url("~/assets/images/about-1.png");
+    background-color: rgba(13, 4, 4, 0.4);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+.about-us-two {
+    background-image: url("~/assets/images/slider-3.jpg");
+    background-color: rgba(13, 4, 4, 0.4);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+.about-us-three {
+    background-image: url("~/assets/images/slider-5.jpg");
     background-color: rgba(13, 4, 4, 0.4);
     background-repeat: no-repeat;
     background-size: cover;

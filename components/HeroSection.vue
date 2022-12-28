@@ -1,6 +1,10 @@
 <script setup>
 import { ref } from "vue";
 import sliderImage1 from "~/assets/images/slider-1.png";
+import sliderImage2 from "~/assets/images/slider-2.jpg";
+import sliderImage3 from "~/assets/images/slider-3.jpg";
+import sliderImage4 from "~/assets/images/slider-4.jpg";
+
 
 const slideItems = ref([
   {
@@ -8,8 +12,16 @@ const slideItems = ref([
     caption: "Building a Community of Techies 1",
   },
   {
-    image: sliderImage1,
+    image: sliderImage2,
     caption: "Building a Community of Techies 2",
+  },
+  {
+    image: sliderImage3,
+    caption: "Building a Community of Techies 3",
+  },
+  {
+    image: sliderImage4,
+    caption: "Building a Community of Techies 4",
   },
 ]);
 
