@@ -125,49 +125,49 @@
         <li class="py-[10px]">
           <a
             href="#home"
-            class="capitalize font-semibold hover:cursor-pointer text-xl"
+            class="capitalize font-semibold hover:cursor-pointer text-xl" @click="menu = !menu"
             >Home</a
           >
         </li>
         <li class="py-[10px]">
           <a
             href="#who-we-are"
-            class="capitalize font-semibold hover:cursor-pointer text-xl"
+            class="capitalize font-semibold hover:cursor-pointer text-xl" @click="menu = !menu"
             >Who we are</a
           >
         </li>
         <li class="py-[10px]">
           <a
             href="#our-events"
-            class="capitalize font-semibold hover:cursor-pointer text-xl"
+            class="capitalize font-semibold hover:cursor-pointer text-xl" @click="menu = !menu"
             >Our activities</a
           >
         </li>
         <li class="py-[10px]">
           <a
             href="#our-team"
-            class="capitalize font-semibold hover:cursor-pointer text-xl"
+            class="capitalize font-semibold hover:cursor-pointer text-xl" @click="menu = !menu"
             >team</a
           >
         </li>
         <li class="py-[10px]">
           <a
             href="#contact"
-            class="capitalize font-semibold hover:cursor-pointer text-xl"
+            class="capitalize font-semibold hover:cursor-pointer text-xl" @click="menu = !menu"
             >contacts</a
           >
         </li>
         <li class="py-[10px]">
           <a
             href=""
-            class="capitalize font-semibold hover:cursor-pointer text-xl"
+            class="capitalize font-semibold hover:cursor-pointer text-xl" @click="menu = !menu"
             >Login</a
           >
         </li>
         <li class="py-[10px]">
           <a
             href="#contact"
-            class="capitalize font-semibold hover:cursor-pointer text-xl bg-[#4FB400] text-white py-[10px] px-[20px] rounded-md"
+            class="capitalize font-semibold hover:cursor-pointer text-xl bg-[#4FB400] text-white py-[10px] px-[20px] rounded-md" @click="menu = !menu"
             >Join Us</a
           >
         </li>

@@ -59,7 +59,7 @@ export default defineComponent({
                 'eventImage': 'group.png'
             },
             {
-                'event_date': '14TH jabuary, 2023',
+                'event_date': '14TH january, 2023',
                 'event_name': 'SOFTWARE DESIGN & DEVELOPMENT DAY DEVELOPMENT DAY',
                 'eventImage': 'group.png'
             },
