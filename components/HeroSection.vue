@@ -1,18 +1,18 @@
 <script setup>
 import { ref } from "vue";
-import sliderImage1 from "~/assets/images/slider-1.png";
-import sliderImage2 from "~/assets/images/slider-2.jpg";
+// import sliderImage1 from "~/assets/images/slider-1.png";
+import sliderImage1 from "~/assets/images/slider-2.jpg";
 import sliderImage3 from "~/assets/images/slider-3.jpg";
 import sliderImage4 from "~/assets/images/slider-4.jpg";
 
 
 const slideItems = ref([
+  // {
+  //   image: sliderImage1,
+  //   caption: "Building a Community of Techies 1",
+  // },
   {
     image: sliderImage1,
-    caption: "Building a Community of Techies 1",
-  },
-  {
-    image: sliderImage2,
     caption: "Building a Community of Techies 2",
   },
   {
