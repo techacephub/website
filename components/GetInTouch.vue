@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto" id="contact">
-    <div class="px-5 py-[50px] my-[100px] bg-[#f4fded] flex gap-10" ata-aos="fade-up" data-aos-duration="1000">
+    <div class="px-5 py-[50px] my-[100px] bg-[#f4fded] flex gap-10">
       <div class="">
         <h1 class="uppercase text-[32px] md:text-[40px] font-bold">get in <br />touch</h1>
       </div>
@@ -20,15 +20,5 @@
     </div>
   </div>
 </template>
-
-<script>
-import 'aos/dist/aos.css'
-import AOS from "aos";
-export default {
-    mounted() {
-      AOS.init();
-    }
-}
-</script>
 
 

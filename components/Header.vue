@@ -179,8 +179,6 @@
 </template>
 
 <script>
-import 'aos/dist/aos.css'
-import AOS from "aos";
 export default {
     data() {
       return {
@@ -203,9 +201,6 @@ export default {
         openMenu() {
             this.menu = !this.menu;
         }
-    },
-    mounted() {
-      AOS.init();
     }
   }
 </script>
@@ -228,7 +223,6 @@ export default {
     width: 0%;
     height: 3px;
     background: #4FB400;
-    /* border: 2px solid #4FB400; */
     transition: width 300ms;
   }
 
