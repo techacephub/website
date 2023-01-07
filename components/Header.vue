@@ -1,10 +1,11 @@
 <template>
   <div class="container mx-auto py-[20px] px-5" id="home">
-    <div class="flex justify-between items-center">
+    <div class="header-section fixed top-0 left-2/4">
+    <div class="flex justify-between items-center  w-[90%] md:w-[85%] h-[90px] mx-auto header-menu">
       <div class="w-[20%]">
         <img src="../assets/images/logo.png" alt="programmers hub logo" />
       </div>
-      <div class="w-[60%] hidden justify-center xl:flex">
+      <div class="w-[60%] hidden justify-center xl:flex desktop-link">
         <ul class="flex">
           <li class="px-[10px] mx-[10px]">
             <a
@@ -77,6 +78,7 @@
         </span>
       </div>
     </div>
+  </div>
 
     <nav
       class="container mx-auto flex flex-col py-[20px] px-5 bg-white fixed top-0 left-0 z-10 h-screen"
@@ -177,6 +179,8 @@
 </template>
 
 <script>
+import 'aos/dist/aos.css'
+import AOS from "aos";
 export default {
     data() {
       return {
@@ -199,6 +203,36 @@ export default {
         openMenu() {
             this.menu = !this.menu;
         }
+    },
+    mounted() {
+      AOS.init();
     }
   }
 </script>
+
+<style scoped>
+.header-section {
+  transform: translateX(-50%);
+  z-index: 10;
+  background: #fff;
+  width: 100%;
+}
+.desktop-link ul li a {
+  position: relative;
+}
+.desktop-link ul li a::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background: #4FB400;
+    /* border: 2px solid #4FB400; */
+    transition: width 300ms;
+  }
+
+  .desktop-link ul li a:hover::after {
+    width: 100%;
+  }
+</style>

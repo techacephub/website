@@ -1,5 +1,5 @@
 <template>
-    <section class="our_event_section mt-[50px] md:mt-[100px] px-5 py-[60px] md:py-[100px]" id="our-events">
+    <section class="our_event_section mt-[50px] md:mt-[100px] px-5 py-[60px] md:py-[100px]" id="our-events" data-aos="fade-up" data-aos-duration="1000" >
         <div class=" our_event_container container mx-auto">
             <div class="our_event_heading_area">
                 <div class="our_event_heading_left mb-[20px]">
@@ -30,12 +30,14 @@
     </section>
 </template>
 <script>
-import { defineComponent } from 'vue'
 import { Carousel, Navigation, Slide, Pagination  } from 'vue3-carousel'
 
 import 'vue3-carousel/dist/carousel.css'
 
-export default defineComponent({
+import 'aos/dist/aos.css'
+import AOS from "aos";
+
+export default {
     components: {
         Carousel,
         Slide,
@@ -104,5 +106,8 @@ export default defineComponent({
       this.$refs.carousel.prev()
     },
   },
-})
+  mounted() {
+    AOS.init()
+  }
+}
 </script>

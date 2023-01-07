@@ -46,7 +46,7 @@ changeSliderOnInterval();
 </script>
 
 <template>
-  <section class="relative">
+  <section class="relative mt-[50px]">
     <div class="relative overflow-hidden w-full lg:h-[90vh] 4xl:h-[80vh]">
       <div
         v-for="(item, i) in slideItems"
@@ -57,6 +57,7 @@ changeSliderOnInterval();
         :style="`background-image: url(${item.image});`"
       >
         <div class="h-1 w-24 bg-primary"></div>
+        <div class="linear-background"></div>
         <h1
           class="text-xl md:text-3xl lg:text-5xl xl:text-6xl 2xl:text-7xl text-[#4FB400] font-bold w-32 md:w-48 lg:w-72 xl:w-1/4 4xl:w-1/3 mt-2 md:mt-8 lg:mt-16 4xl:mt-32"
         >
@@ -69,8 +70,13 @@ changeSliderOnInterval();
 </template>
 
 <style scoped>
-.slider-image {
-  background-color: linear-gradient(270.31deg, rgba(255, 255, 255, 0) 35.65%, #FFFFFF 94.18%);
-  background-blend-mode: overlay;
+.linear-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: linear-gradient(270.31deg, rgba(255, 255, 255, 0) 35.65%, #FFFFFF 94.18%);
 }
 </style>
