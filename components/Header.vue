@@ -2,7 +2,7 @@
   <div class="container mx-auto py-[20px] px-5" id="home">
     <div class="header-section fixed top-0 left-2/4">
     <div class="flex justify-between items-center  w-[90%] md:w-[85%] h-[90px] mx-auto header-menu">
-      <div class="w-[20%]">
+      <div class="w-[20%] hover:cursor">
         <nuxt-img src="https://res.cloudinary.com/haayzeed/image/upload/v1673145866/programmers-hub-team/team/logo.png" alt="programmers hub logo" loading="lazy" width="70px" height="50px" />
       </div>
       <div class="w-[60%] hidden justify-center xl:flex desktop-link">
@@ -188,6 +188,9 @@ export default {
     head() {
       return {
         title: 'Welcome to Programmers Hub',
+        htmlAttrs: {
+          lang: 'en'
+        },
         meta: [
           {
             hid: 'description',
