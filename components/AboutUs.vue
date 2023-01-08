@@ -59,21 +59,21 @@ export default {
 
 <style>
 .about-us-one {
-    background-image: url("~/assets/images/about-1.png");
+    background-image: url("~/assets/images/about-1.webp");
     background-color: rgba(13, 4, 4, 0.5);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
 }
 .about-us-two {
-    background-image: url("~/assets/images/slider-3.jpg");
+    background-image: url("~/assets/images/slider-3.webp");
     background-color: rgba(13, 4, 4, 0.5);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
 }
 .about-us-three {
-    background-image: url("~/assets/images/slider-5.jpg");
+    background-image: url("~/assets/images/slider-5.webp");
     background-color: rgba(13, 4, 4, 0.5);
     background-repeat: no-repeat;
     background-size: cover;

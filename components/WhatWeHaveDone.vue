@@ -8,55 +8,55 @@
         <div
           class="bg-white flex justify-center transition ease-in-out  hover:scale-20 duration-300 box_1 h-64"
         >
-          <img
+          <nuxt-img
             src="../assets/images/project.jpg"
             class="w-full h-full"
-            alt="what we have done"
+            alt="what we have done" loading="lazy" format="webp"
           />
         </div>
         <div
           class="bg-white flex justify-center transition ease-in-out  hover:scale-20 duration-300 h-64 box_2"
         >
-          <img
+          <nuxt-img
             src="../assets/images/project2.jpg"
             class="w-full h-full"
-            alt="what we have done"
+            alt="what we have done" loading="lazy" format="webp"
           />
         </div>
         <div
           class="bg-white flex justify-center transition ease-in-out  hover:scale-20 duration-300 h-64 box_3"
         >
-          <img
-            src="../assets/images/project.jpg"
+          <nuxt-img
+            src="../assets/images/slider-3.webp"
             class="w-full h-full"
-            alt="what we have done"
+            alt="what we have done" loading="lazy" format="webp"
           />
         </div>
         <div
           class="bg-white flex justify-center transition ease-in-out  hover:scale-20 duration-300 h-64 box_4"
         >
-          <img
-            src="../assets/images/project2.jpg"
+          <nuxt-img
+            src="../assets/images/slider-2.webp"
             class="w-full h-full"
-            alt="what we have done"
+            alt="what we have done" loading="lazy" format="webp"
           />
         </div>
         <div
           class="bg-white flex justify-center transition ease-in-out  hover:scale-20 duration-300 h-64 box_5"
         >
-          <img
-            src="../assets/images/project.jpg"
+          <nuxt-img
+            src="../assets/images/slider-3.webp"
             class="w-full h-full"
-            alt="what we have done"
+            alt="what we have done" loading="lazy" format="webp"
           />
         </div>
         <div
           class="bg-white flex justify-center transition ease-in-out  hover:scale-20 duration-300 h-64 box_6"
         >
-          <img
-            src="../assets/images/project2.jpg"
+          <nuxt-img
+            src="../assets/images/slider-2.webp"
             class="w-full h-full"
-            alt="what we have done"
+            alt="what we have done" loading="lazy" format="webp"
           />
         </div>
       </div>

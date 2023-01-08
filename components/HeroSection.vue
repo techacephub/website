@@ -1,9 +1,9 @@
 <script setup>
 import { ref } from "vue";
 // import sliderImage1 from "~/assets/images/slider-1.png";
-import sliderImage1 from "~/assets/images/slider-2.jpg";
-import sliderImage3 from "~/assets/images/slider-3.jpg";
-import sliderImage4 from "~/assets/images/slider-4.jpg";
+import sliderImage1 from "~/assets/images/slider-2.webp";
+import sliderImage3 from "~/assets/images/slider-3.webp";
+import sliderImage4 from "~/assets/images/slider-4.webp";
 
 
 const slideItems = ref([

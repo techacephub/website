@@ -17,7 +17,7 @@
                     <slide v-for="team in allTeam" :key="team">
                         <div class="single_team">
                             <div class="flip-container">
-                                <img :src="team.teamImage" :alt='team.fullname'>
+                                <nuxt-img :src="team.teamImage" :alt='team.fullname' loading="lazy" />
                             </div>
                             <div class="single_team_desc">
                                 <div>
@@ -25,7 +25,7 @@
                                     <h2 class="single_team_work_place">{{ team.workplace }} </h2>
                                 </div>
                                 <NuxtLink :to="team.linkedInUrl"><img src="@/assets/images/icons/linkedin.png"
-                                        alt="linkedIn">
+                                        alt="linkedIn" width="48px" height="48px">
                                 </NuxtLink>
                             </div>
                         </div>

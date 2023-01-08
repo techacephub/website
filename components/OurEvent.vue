@@ -16,7 +16,7 @@
                 <Carousel ref="carousel"  :settings="settings" :breakpoints="breakpoints" :autoplay="2000" :wrap-around="true">
                     <slide v-for="event in allEvents" :key="event">
                         <div class="single_event">
-                            <img :src="`/_nuxt/assets/images/team/${event.eventImage}`" :alt="event.event_name" load="lazy">
+                            <nuxt-img src="https://res.cloudinary.com/haayzeed/image/upload/q_auto/v1669585925/programmers-hub-team/team/group.png" :alt="event.event_name" loading="lazy" />
                             <div class="single_event_desc">
                                 <h1 class="single_event_date text-left">{{event.event_date}} </h1>
                                 <h2 class="single_event_name text-left">{{event.event_name}}

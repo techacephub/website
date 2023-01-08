@@ -3,7 +3,7 @@
     <div class="header-section fixed top-0 left-2/4">
     <div class="flex justify-between items-center  w-[90%] md:w-[85%] h-[90px] mx-auto header-menu">
       <div class="w-[20%]">
-        <img src="../assets/images/logo.png" alt="programmers hub logo" />
+        <nuxt-img src="https://res.cloudinary.com/haayzeed/image/upload/v1673145866/programmers-hub-team/team/logo.png" alt="programmers hub logo" loading="lazy" width="70px" height="50px" />
       </div>
       <div class="w-[60%] hidden justify-center xl:flex desktop-link">
         <ul class="flex">
@@ -87,7 +87,7 @@
       <div class="flex justify-between items-center">
         <span class="cursor-pointer">
           <router-link to="/">
-            <img src="../assets/images/logo.png" alt="programmers logo" />
+            <nuxt-img src="https://res.cloudinary.com/haayzeed/image/upload/v1673145866/programmers-hub-team/team/logo.png" alt="programmers hub logo" loading="lazy" />
           </router-link>
         </span>
 
