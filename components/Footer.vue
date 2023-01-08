@@ -5,13 +5,13 @@
                 <h4 class="text-white mb-[20px] font-semibold text-[20px]">Quick Links</h4>
                 <ul class="text-white text-[14px]">
                     <li class="mb-[15px]">
-                        <a href="">Who we are</a>
+                        <a href="" name="who-we-are">Who we are</a>
                     </li>
                     <li class="mb-[15px]">
-                        <a href="">Events</a>
+                        <a href="" name="events">Events</a>
                     </li>
                     <li class="mb-[15px]">
-                        <a href="">Team</a>
+                        <a href="" name="teams">Team</a>
                     </li>
                 </ul>
             </div>
@@ -20,16 +20,16 @@
                 <h4 class="text-white mb-[20px] font-semibold text-[20px]">Follow Us</h4>
                 <ul class="text-white text-[14px]">
                     <li class="mb-[15px]">
-                        <a href="">Facebook</a>
+                        <a href="" name="facebook">Facebook</a>
                     </li>
                     <li class="mb-[15px]">
-                        <a href="">Instagram</a>
+                        <a href="" name="instagram">Instagram</a>
                     </li>
                     <li class="mb-[15px]">
-                        <a href="">Twitter</a>
+                        <a href="" name="twitter">Twitter</a>
                     </li>
                     <li class="mb-[15px]">
-                        <a href="">Linkedin</a>
+                        <a href="" name="linkedin">Linkedin</a>
                     </li>
                 </ul>
             </div>

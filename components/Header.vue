@@ -9,35 +9,35 @@
         <ul class="flex">
           <li class="px-[10px] mx-[10px]">
             <a
-              href="#home"
+              href="#home" name="home"
               class="capitalize font-semibold hover:cursor-pointer"
               >Home</a
             >
           </li>
           <li class="px-[10px] mx-[10px]">
             <a
-              href="#who-we-are"
+              href="#who-we-are" name="who-we-are"
               class="capitalize font-semibold hover:cursor-pointer"
               >Who we are</a
             >
           </li>
           <li class="px-[10px] mx-[10px]">
             <a
-              href="#our-events"
+              href="#our-events" name="activities"
               class="capitalize font-semibold hover:cursor-pointer"
               >Our activities</a
             >
           </li>
           <li class="px-[10px] mx-[10px]">
             <a
-              href="#our-team"
+              href="#our-team" name="team"
               class="capitalize font-semibold hover:cursor-pointer"
               >team</a
             >
           </li>
           <li class="px-[10px] mx-[10px]">
             <a
-              href="#contact"
+              href="#contact" name="contacts"
               class="capitalize font-semibold hover:cursor-pointer"
               >contacts</a
             >
@@ -47,11 +47,11 @@
       <div class="w-[20%] flex justify-end">
         <ul class="justify-end hidden xl:flex">
           <li class="px-[10px] mx-[10px]">
-            <NuxtLink to="" class="capitalize font-semibold">Login</NuxtLink>
+            <NuxtLink to="" class="capitalize font-semibold" name="login">Login</NuxtLink>
           </li>
           <li class="px-[10px] ml-[10px]">
             <a  
-              href="#contact"
+              href="#contact" name="join-us"
               class="capitalize bg-[#4FB400] font-semibold text-white py-[10px] px-[20px] rounded-md text-[14px]"
               >join us</a
             >
@@ -126,49 +126,49 @@
       <ul class="flex flex-col items-center bg-white py-4 w-full" v-if="menu">
         <li class="py-[10px]">
           <a
-            href="#home"
+            href="#home" name="home"
             class="capitalize font-semibold hover:cursor-pointer text-xl" @click="menu = !menu"
             >Home</a
           >
         </li>
         <li class="py-[10px]">
           <a
-            href="#who-we-are"
+            href="#who-we-are" name="who-we-are"
             class="capitalize font-semibold hover:cursor-pointer text-xl" @click="menu = !menu"
             >Who we are</a
           >
         </li>
         <li class="py-[10px]">
           <a
-            href="#our-events"
+            href="#our-events" name="activities"
             class="capitalize font-semibold hover:cursor-pointer text-xl" @click="menu = !menu"
             >Our activities</a
           >
         </li>
         <li class="py-[10px]">
           <a
-            href="#our-team"
+            href="#our-team" name="team"
             class="capitalize font-semibold hover:cursor-pointer text-xl" @click="menu = !menu"
             >team</a
           >
         </li>
         <li class="py-[10px]">
           <a
-            href="#contact"
+            href="#contact" name="contact"
             class="capitalize font-semibold hover:cursor-pointer text-xl" @click="menu = !menu"
             >contacts</a
           >
         </li>
         <li class="py-[10px]">
           <a
-            href=""
+            href="" name="login"
             class="capitalize font-semibold hover:cursor-pointer text-xl" @click="menu = !menu"
             >Login</a
           >
         </li>
         <li class="py-[10px]">
           <a
-            href="#contact"
+            href="#contact" name="join-us"
             class="capitalize font-semibold hover:cursor-pointer text-xl bg-[#4FB400] text-white py-[10px] px-[20px] rounded-md" @click="menu = !menu"
             >Join Us</a
           >
