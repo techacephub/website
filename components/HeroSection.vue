@@ -51,6 +51,7 @@ changeSliderOnInterval();
       >
         <img
           :data-src="item.image"
+          src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII="
           :alt="item.caption"
           class="w-full h-56 md:h-[50vh] lg:h-[100vh] 4xl:h-[80vh] absolute top-0 left-0 lazyload"
           style="z-index: -1"
