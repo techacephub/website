@@ -50,9 +50,9 @@ changeSliderOnInterval();
         class="relative block inset-0 slider-image -mr-[100%] w-full transform transition-all duration-700 ease-in-out ease-in h-56 md:h-[50vh] lg:h-[100vh] 4xl:h-[80vh] pt-10 md:pt-16 lg:pt-32 xl:pt-52 4xl:pt-72 px-8 md:px-16 lg:px-24 xl:pt-32 4xl:px-56 float-left backface-hidden relative"
       >
         <img
-          :src="item.image"
+          :data-src="item.image"
           :alt="item.caption"
-          class="w-full h-56 md:h-[50vh] lg:h-[100vh] 4xl:h-[80vh] absolute top-0 left-0"
+          class="w-full h-56 md:h-[50vh] lg:h-[100vh] 4xl:h-[80vh] absolute top-0 left-0 lazyload"
           style="z-index: -1"
         />
         <div class="h-1 w-24 bg-primary"></div>
