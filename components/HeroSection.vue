@@ -1,16 +1,10 @@
 <script setup>
 import { ref } from "vue";
-// import sliderImage1 from "~/assets/images/slider-1.png";
 import sliderImage1 from "~/assets/images/slider-2.webp";
 import sliderImage3 from "~/assets/images/slider-3.webp";
 import sliderImage4 from "~/assets/images/slider-4.webp";
 
-
 const slideItems = ref([
-  // {
-  //   image: sliderImage1,
-  //   caption: "Building a Community of Techies 1",
-  // },
   {
     image: sliderImage1,
     caption: "Building a Community of Techies 2",
@@ -53,9 +47,14 @@ changeSliderOnInterval();
         :id="`slide-${i}`"
         :key="i"
         :class="`${activeSlider === i ? 'opacity-100' : 'opacity-0'}`"
-        class="relative block inset-0 slider-image -mr-[100%] w-full transform transition-all duration-700 ease-in-out ease-in h-56 md:h-[50vh] lg:h-[100vh] 4xl:h-[80vh] bg-no-repeat md:bg-top bg-cover pt-10 md:pt-16 lg:pt-32 xl:pt-52 4xl:pt-72 px-8 md:px-16 lg:px-24 xl:pt-32 4xl:px-56 float-left backface-hidden"
-        :style="`background-image: url(${item.image});`"
+        class="relative block inset-0 slider-image -mr-[100%] w-full transform transition-all duration-700 ease-in-out ease-in h-56 md:h-[50vh] lg:h-[100vh] 4xl:h-[80vh] pt-10 md:pt-16 lg:pt-32 xl:pt-52 4xl:pt-72 px-8 md:px-16 lg:px-24 xl:pt-32 4xl:px-56 float-left backface-hidden relative"
       >
+        <img
+          :src="item.image"
+          :alt="item.caption"
+          class="w-full h-56 md:h-[50vh] lg:h-[100vh] 4xl:h-[80vh] absolute top-0 left-0"
+          style="z-index: -1"
+        />
         <div class="h-1 w-24 bg-primary"></div>
         <div class="linear-background"></div>
         <h1
@@ -77,6 +76,10 @@ changeSliderOnInterval();
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: linear-gradient(270.31deg, rgba(255, 255, 255, 0) 35.65%, #FFFFFF 94.18%);
+  background: linear-gradient(
+    270.31deg,
+    rgba(255, 255, 255, 0) 35.65%,
+    #ffffff 94.18%
+  );
 }
 </style>
