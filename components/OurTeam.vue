@@ -86,56 +86,56 @@ export default defineComponent({
         workplace: "Geneo Softwares",
         linkedInUrl: "https://www.linkedin.com/in/soneye-abimbola-sina/",
         teamImage:
-          "https://res.cloudinary.com/haayzeed/image/upload/v1669585925/programmers-hub-team/team/shina.png",
+          "https://res.cloudinary.com/kicest/image/upload/v1673843873/programmers-hub/team/shina.webp",
       },
       {
         fullname: "Olayinka Idowu",
         workplace: "Kredi Bank",
         linkedInUrl: "https://www.linkedin.com/in/olayinka-idowu-7a92b3166/",
         teamImage:
-          "https://res.cloudinary.com/haayzeed/image/upload/v1669585924/programmers-hub-team/team/olayinka.jpg",
+          "https://res.cloudinary.com/kicest/image/upload/v1673843875/programmers-hub/team/olayinka.webp",
       },
       {
         fullname: "Dosunmu Afeez",
         workplace: "Vzy Inc",
         linkedInUrl: "https://www.linkedin.com/in/afeez-dosunmu/",
         teamImage:
-          "https://res.cloudinary.com/haayzeed/image/upload/v1669585925/programmers-hub-team/team/dosunmu.png",
+          "https://res.cloudinary.com/kicest/image/upload/v1673843875/programmers-hub/team/dosunmu.webp",
       },
       {
         fullname: "Omolewa Stephen",
         workplace: "Hexagon Seafoods Limited",
         linkedInUrl: "https://www.linkedin.com/in/omolewa-stephen-ayobami/",
         teamImage:
-          "https://res.cloudinary.com/haayzeed/image/upload/v1669585925/programmers-hub-team/team/omolewa.png",
+          "https://res.cloudinary.com/kicest/image/upload/v1673843875/programmers-hub/team/omolewa.webp",
       },
       {
         fullname: "Obadimu Ismail",
         workplace: "Concept-Nova",
         linkedInUrl: "https://www.linkedin.com/in/ismailobadimu/",
         teamImage:
-          "https://res.cloudinary.com/haayzeed/image/upload/v1669585924/programmers-hub-team/team/ismail.jpg",
+          "https://res.cloudinary.com/kicest/image/upload/v1673845996/programmers-hub/team/ismail-obadimu.webp",
       },
       {
         fullname: "Soneye Abimbola",
         workplace: "Freelancer",
         linkedInUrl: "https://www.linkedin.com/in/soneyeabimbola/",
         teamImage:
-          "https://res.cloudinary.com/haayzeed/image/upload/v1669585925/programmers-hub-team/team/lawal.png",
+          "https://res.cloudinary.com/kicest/image/upload/v1673843875/programmers-hub/team/lawal.webp",
       },
       {
         fullname: "Mustapha Tijani",
         workplace: "FBIS Tech",
         linkedInUrl: "https://www.linkedin.com/in/tijanidevit/",
         teamImage:
-          "https://res.cloudinary.com/haayzeed/image/upload/v1669585924/programmers-hub-team/team/tijani.jpg",
+          "https://res.cloudinary.com/kicest/image/upload/v1673843875/programmers-hub/team/tijani.webp",
       },
       {
         fullname: "Adeyemi Racheal",
         workplace: "Kredi Bank",
         linkedInUrl: "https://www.linkedin.com/in/cyberbizkit/",
         teamImage:
-          "https://res.cloudinary.com/haayzeed/image/upload/v1669585924/programmers-hub-team/team/racheal.jpg",
+          "https://res.cloudinary.com/kicest/image/upload/v1673843875/programmers-hub/team/racheal.webp",
       },
       {
         fullname: "Awodugba Temidayo",
@@ -143,14 +143,14 @@ export default defineComponent({
         linkedInUrl:
           "https://www.linkedin.com/in/awodugba-temidayo-alvin-918495151/",
         teamImage:
-          "https://res.cloudinary.com/haayzeed/image/upload/v1669585924/programmers-hub-team/team/alvin.jpg",
+          "https://res.cloudinary.com/kicest/image/upload/v1673843875/programmers-hub/team/alvin.webp",
       },
       {
         fullname: "Amode Habeeb",
         workplace: "Markify",
         linkedInUrl: "https://www.linkedin.com/in/habeeb-amode-3a410318a/",
         teamImage:
-          "https://res.cloudinary.com/haayzeed/image/upload/v1669585925/programmers-hub-team/team/habeeb.png",
+          "https://res.cloudinary.com/kicest/image/upload/v1673843875/programmers-hub/team/habeeb.webp",
       },
     ],
     breakpoints: {
