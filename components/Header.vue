@@ -60,7 +60,7 @@
         </div>
         <div class="w-[20%] flex justify-end">
           <ul class="justify-end hidden xl:flex">
-            <li class="px-[10px] mx-[10px]">
+            <li class="px-[10px] mx-[10px] hidden">
               <NuxtLink to="" class="capitalize font-semibold" name="login"
                 >Login</NuxtLink
               >
@@ -219,21 +219,6 @@ export default {
   data() {
     return {
       menu: false,
-    };
-  },
-  head() {
-    return {
-      title: "Welcome to Programmers Hub",
-      htmlAttrs: {
-        lang: "en",
-      },
-      meta: [
-        {
-          hid: "description",
-          name: "description",
-          content: "My custom description",
-        },
-      ],
     };
   },
   methods: {

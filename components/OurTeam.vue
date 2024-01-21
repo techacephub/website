@@ -86,56 +86,56 @@ export default defineComponent({
         workplace: "Geneo Softwares",
         linkedInUrl: "https://www.linkedin.com/in/soneye-abimbola-sina/",
         teamImage:
-          "https://res.cloudinary.com/kicest/image/upload/v1673843873/programmers-hub/team/shina.webp",
+          "https://res.cloudinary.com/haayzeed/image/upload/v1705854578/programmers-hub-team/team/bimbo_kytqkp.webp",
       },
       {
         fullname: "Olayinka Idowu",
         workplace: "Kredi Bank",
         linkedInUrl: "https://www.linkedin.com/in/olayinka-idowu-7a92b3166/",
         teamImage:
-          "https://res.cloudinary.com/kicest/image/upload/v1673843875/programmers-hub/team/olayinka.webp",
+          "https://res.cloudinary.com/haayzeed/image/upload/v1705854579/programmers-hub-team/team/Olayinka_jghsfm.webp",
       },
       {
         fullname: "Dosunmu Afeez",
         workplace: "Vzy Inc",
         linkedInUrl: "https://www.linkedin.com/in/afeez-dosunmu/",
         teamImage:
-          "https://res.cloudinary.com/kicest/image/upload/v1673843875/programmers-hub/team/dosunmu.webp",
+          "https://res.cloudinary.com/haayzeed/image/upload/v1705855175/programmers-hub-team/team/afeez_s6t1hf.webp",
       },
       {
         fullname: "Omolewa Stephen",
         workplace: "Hexagon Seafoods Limited",
         linkedInUrl: "https://www.linkedin.com/in/omolewa-stephen-ayobami/",
         teamImage:
-          "https://res.cloudinary.com/kicest/image/upload/v1673843875/programmers-hub/team/omolewa.webp",
+          "https://res.cloudinary.com/haayzeed/image/upload/v1705854579/programmers-hub-team/team/lewa_zociyh.webp",
       },
       {
         fullname: "Obadimu Ismail",
         workplace: "Concept-Nova",
         linkedInUrl: "https://www.linkedin.com/in/ismailobadimu/",
         teamImage:
-          "https://res.cloudinary.com/kicest/image/upload/v1673845996/programmers-hub/team/ismail-obadimu.webp",
+          "https://res.cloudinary.com/haayzeed/image/upload/v1705854579/programmers-hub-team/team/Ismail_bu3akf.webp",
       },
       {
         fullname: "Soneye Abimbola",
         workplace: "Freelancer",
         linkedInUrl: "https://www.linkedin.com/in/soneyeabimbola/",
         teamImage:
-          "https://res.cloudinary.com/kicest/image/upload/v1673843875/programmers-hub/team/lawal.webp",
+          "https://res.cloudinary.com/haayzeed/image/upload/v1705854578/programmers-hub-team/team/bimbo_kytqkp.webp",
       },
       {
         fullname: "Mustapha Tijani",
         workplace: "FBIS Tech",
         linkedInUrl: "https://www.linkedin.com/in/tijanidevit/",
         teamImage:
-          "https://res.cloudinary.com/kicest/image/upload/v1673843875/programmers-hub/team/tijani.webp",
+          "https://res.cloudinary.com/haayzeed/image/upload/v1705854579/programmers-hub-team/team/tj_zduz7i.webp",
       },
       {
         fullname: "Adeyemi Racheal",
         workplace: "Kredi Bank",
         linkedInUrl: "https://www.linkedin.com/in/cyberbizkit/",
         teamImage:
-          "https://res.cloudinary.com/kicest/image/upload/v1673843875/programmers-hub/team/racheal.webp",
+          "https://res.cloudinary.com/haayzeed/image/upload/v1705854579/programmers-hub-team/team/cyber_sqnzu7.webp",
       },
       {
         fullname: "Awodugba Temidayo",
@@ -143,14 +143,21 @@ export default defineComponent({
         linkedInUrl:
           "https://www.linkedin.com/in/awodugba-temidayo-alvin-918495151/",
         teamImage:
-          "https://res.cloudinary.com/kicest/image/upload/v1673843875/programmers-hub/team/alvin.webp",
+          "https://res.cloudinary.com/haayzeed/image/upload/v1705854579/programmers-hub-team/team/alvin_d8etsg.webp",
       },
       {
         fullname: "Amode Habeeb",
         workplace: "Markify",
         linkedInUrl: "https://www.linkedin.com/in/habeeb-amode-3a410318a/",
         teamImage:
-          "https://res.cloudinary.com/kicest/image/upload/v1673843875/programmers-hub/team/habeeb.webp",
+          "https://res.cloudinary.com/haayzeed/image/upload/v1705854577/programmers-hub-team/team/habeeb_xdlyuh.webp",
+      },
+      {
+        fullname: "Abimbola Olawale",
+        workplace: "Creative Advanced Tech.",
+        linkedInUrl: "https://www.linkedin.com/in/bimbolawale/",
+        teamImage:
+          "https://res.cloudinary.com/haayzeed/image/upload/v1705854580/programmers-hub-team/team/wale_dwhp0o.webp",
       },
     ],
     breakpoints: {
@@ -161,12 +168,12 @@ export default defineComponent({
       },
       600: {
         itemsToShow: 2,
-        snapAlign: "center",
+        snapAlign: "left",
       },
       // 1024 and up
       1024: {
         itemsToShow: 3,
-        snapAlign: "center",
+        snapAlign: "left",
       },
     },
   }),
