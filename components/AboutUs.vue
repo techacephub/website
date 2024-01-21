@@ -19,7 +19,7 @@
             <div class="w-full md:w-[45%]">
                 <div class="about-us-two h-[215px] w-full mb-[20px] flex flex-col justify-end p-[30px]" data-aos="fade-up" data-aos-duration="1000">
                     <h1 class="text-white font-semibold text-[20px]">Training Center</h1>
-                    <p class="text-white font-semibold text-[14px]">Training Student on Software Development</p>
+                    <p class="text-white font-semibold text-[14px]">Training students in all tech-related skills</p>
                 </div>
                 <div class="about-us-three h-[215px] w-full flex flex-col justify-end p-[30px]" data-aos="fade-up" data-aos-duration="1000">
                     <h1 class="text-white font-semibold text-[20px]">Programmers Hub Conference</h1>
@@ -31,7 +31,7 @@
         <div class="grid grid-cols-1 gap-10 mt-[30px] justify-center lg:grid-cols-3">
             <div class="flex flex-col items-center lg:items-start" data-aos="fade-up" data-aos-duration="1000">
                 <h1 class="font-bold text-[20px] mb-[10px]">What We Do</h1>
-                <p class="text-center lg:text-left leading-8">At Programma's hub, we specialize in helping individuals develop a range of technical skills that are in high demand. From programming and graphics design to project management and content creation, we offer training and mentorship to help you succeed in these exciting fields. Our team is dedicated to providing the support and guidance you need to achieve your goals and reach your full potential.</p>
+                <p class="text-center lg:text-left leading-8">At Programma's hub, we specialize in helping individuals develop a range of technical skills that are in high demand. From software development, product design, project management, and other related tech fields, we offer training and mentorship to help you succeed in these exciting fields. Our team is dedicated to providing the support and guidance you need to achieve your goals and reach your full potential.</p>
             </div>
 
             <div class="flex flex-col items-center lg:items-start" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"> 

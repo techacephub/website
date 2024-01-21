@@ -26,13 +26,13 @@
         </h4>
         <ul class="text-white text-[14px]">
           <li class="mb-[15px]">
-            <a href="" name="facebook">Facebook</a>
+            <a href="https://www.facebook.com/programashub?mibextid=PlNXYD" name="facebook">Facebook</a>
           </li>
           <li class="mb-[15px]">
-            <a href="" name="instagram">Instagram</a>
+            <a href="https://www.instagram.com/techacephub/" name="instagram">Instagram</a>
           </li>
           <li class="mb-[15px]">
-            <a href="" name="twitter">Twitter</a>
+            <a href="https://twitter.com/programmers_hub" name="twitter">Twitter</a>
           </li>
           <li class="mb-[15px]">
             <a href="" name="linkedin">Linkedin</a>
