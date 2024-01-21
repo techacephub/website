@@ -9,13 +9,13 @@
         </h4>
         <ul class="text-white text-[14px]">
           <li class="mb-[15px]">
-            <a href="" name="who-we-are">Who we are</a>
+            <a href="#who-we-are" name="who-we-are">Who we are</a>
           </li>
           <li class="mb-[15px]">
-            <a href="" name="events">Events</a>
+            <a href="#our-events" name="events">Events</a>
           </li>
           <li class="mb-[15px]">
-            <a href="" name="teams">Team</a>
+            <a href="#our-team" name="teams">Team</a>
           </li>
         </ul>
       </div>
@@ -34,7 +34,7 @@
           <li class="mb-[15px]">
             <a href="https://twitter.com/programmers_hub" name="twitter">Twitter</a>
           </li>
-          <li class="mb-[15px]">
+          <li class="mb-[15px] hidden">
             <a href="" name="linkedin">Linkedin</a>
           </li>
         </ul>
