@@ -121,7 +121,7 @@ export default defineComponent({
         workplace: "Freelancer",
         linkedInUrl: "https://www.linkedin.com/in/soneyeabimbola/",
         teamImage:
-          "https://res.cloudinary.com/haayzeed/image/upload/v1705854578/programmers-hub-team/team/bimbo_kytqkp.webp",
+          "https://res.cloudinary.com/haayzeed/image/upload/v1705854578/programmers-hub-team/team/Ada_an7b5p.webp",
       },
       {
         fullname: "Mustapha Tijani",
@@ -157,7 +157,7 @@ export default defineComponent({
         workplace: "Creative Advanced Tech.",
         linkedInUrl: "https://www.linkedin.com/in/bimbolawale/",
         teamImage:
-          "https://res.cloudinary.com/haayzeed/image/upload/v1705854580/programmers-hub-team/team/wale_dwhp0o.webp",
+          "https://res.cloudinary.com/haayzeed/image/upload/v1706002147/wale_o8q9l2.webp",
       },
     ],
     breakpoints: {
