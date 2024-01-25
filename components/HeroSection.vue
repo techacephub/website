@@ -7,15 +7,15 @@ import sliderImage4 from "~/assets/images/slider-4.webp";
 const slideItems = ref([
   {
     image: sliderImage1,
-    caption: "Building a Community of Techies 2",
+    caption: "Infinite Possibilities, One Community: Your Gateway to Tech Brilliance",
   },
   {
     image: sliderImage3,
-    caption: "Building a Community of Techies 3",
+    caption: "Connecting Innovators: Where Tech Minds Converge for Excellence",
   },
   {
     image: sliderImage4,
-    caption: "Building a Community of Techies 4",
+    caption: "Tech Hub Unleashed: Elevate Your Skills, Connect with Peers",
   },
 ]);
 
