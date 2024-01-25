@@ -56,10 +56,10 @@ changeSliderOnInterval();
           class="w-full h-56 md:h-[50vh] lg:h-[100vh] 4xl:h-[80vh] absolute top-0 left-0 lazyload"
           style="z-index: -1"
         />
-        <div class="h-1 w-24 bg-primary"></div>
+        <div class="h-1 w-24 bg-white"></div>
         <div class="linear-background"></div>
         <h1
-          class="text-xl md:text-3xl lg:text-5xl xl:text-6xl 2xl:text-7xl text-[#4FB400] font-bold w-32 md:w-48 lg:w-72 xl:w-1/4 4xl:w-1/3 mt-2 md:mt-8 lg:mt-16 4xl:mt-32"
+          class="text-xl md:text-2xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-[#fff] font-bold w-32 md:w-48 lg:w-72 xl:w-1/2 4xl:w-1/3 mt-2 md:mt-8 lg:mt-16 4xl:mt-32"
         >
           {{ item.caption }}
         </h1>
@@ -77,10 +77,11 @@ changeSliderOnInterval();
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: linear-gradient(
+  background: rgba(79, 180, 0, 0.3);
+  /* background: linear-gradient(
     270.31deg,
     rgba(255, 255, 255, 0) 35.65%,
     #ffffff 94.18%
-  );
+  ); */
 }
 </style>
